@@ -1,0 +1,11 @@
+{
+  "name": "alfa_atm_bot",
+  "version": "1.0.0",
+  "description": "Search for available ATMs nearby",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Dryagin",
+  "license": "ISC"
+}
