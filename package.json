@@ -4,12 +4,16 @@
   "description": "Search for available ATMs nearby",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Alexandr Dryagin",
   "license": "ISC",
   "dependencies": {
     "request": "^2.88.2",
     "telegraf": "^4.4.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
