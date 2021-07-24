@@ -4,7 +4,7 @@ const path = require('path')
 const certFile = path.resolve(__dirname, 'cert/apidevelopers.cer')
 const keyFile = path.resolve(__dirname, 'cert/apidevelopers.key')
 const request = require("request");
-const X_IBM_Client_Id = "93f0bffa-8c93-4694-a9ff-7383967088b5";
+const X_IBM_Client_Id = "client id";
 
 //                                  Получение данных от API банка
 //================================================================================================
@@ -115,7 +115,7 @@ function distanceBetweenTwoPlace(myLatitude, myLongitude, atmLatitude, atmLongit
 //                                               Функционал бота
 //===========================================================================================================
 
-const botToken = "1930692856:AAGjghMGHBnryqcb8Y8iQx-rax-WoS9Ojlg";
+const botToken = "token";
 const bot = new Telegraf(botToken);
 
 function getMenu() {
